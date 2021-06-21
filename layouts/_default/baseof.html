@@ -34,7 +34,7 @@
         <div id="site-wrap" class="site">
         
           {{ partial "header.html" . }}
-        
+        {{ .File.Path }}
           <main id="content" class="site-content">
             {{ block "content" . }}{{ end }}
           </main>
