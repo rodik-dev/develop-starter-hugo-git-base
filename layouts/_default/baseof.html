@@ -36,6 +36,7 @@
           {{ partial "header.html" . }}
         
           <main id="content" class="site-content">
+            {{ printf "%#v" $ }}
             {{ block "content" . }}{{ end }}
           </main>
         
