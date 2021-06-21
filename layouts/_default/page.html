@@ -1,7 +1,6 @@
 {{ define "content" }}
 <article class="page">
-
-  <div class="container container--md" data-sb-object-id="{{ }}">
+  <div class="container container--md" data-sb-object-id="{{ .File.Path }}">
     <header class="page__header">
       <h1 class="page__title">{{ .Params.title }}</h1>
     </header>
