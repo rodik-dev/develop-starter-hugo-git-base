@@ -36,7 +36,7 @@
           {{ partial "header.html" . }}
         
           <main id="content" class="site-content">
-            {{ printf "%#v" $.Page.meta }}
+            {{ printf "%#v" $.Page }}
             {{ block "content" . }}{{ end }}
           </main>
         
