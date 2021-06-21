@@ -36,7 +36,6 @@
           {{ partial "header.html" . }}
         
           <main id="content" class="site-content">
-            {{ jsonify . }}
             {{ block "content" . }}{{ end }}
           </main>
         
